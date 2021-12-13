@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+    <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <link rel="stylesheet" href="./assets/CSS/responsive.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <header id="header">
+        <!-- Navigation -->
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#band">Band</a></li>
+          <li><a href="#tour">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="#">More <i class="fa fa-caret-down"></i></a>
+            <!-- Sub-navigation -->
+            <ul class="sub-nav">
+              <li><a class="pd-8" href="javascript:void(0)">Merchandise</a></li>
+              <li><a class="pd-8" href="javascript:void(0)">Extras</a></li>
+              <li><a class="pd-8" href="javascript:void(0)">Media</a></li>
+            </ul>
+            <!-- -------------- -->
+          </li>
+        </ul>
+        <!-- ---------- -->
+        <!-- Header buttons -->
+        <a href="javascript:void(0)" class="btn-search pull-right"
+          ><i class="fa fa-search"></i
+        ></a>
+        <a
+          id="mobile-menu"
+          href="javascript:void(0)"
+          class="btn-mobile-menu pull-right"
+          ><i class="fas fa-bars"></i
+        ></a>
+        <!-- -------------- -->
+      </header>
+
+      <div id="content-container">
+        <!-- Slider -->
+        <div id="slider">
+          <img
+            src="./assets/Image/slider.jpg"
+            alt="slider-img-1"
+            class="width-full"
+          />
+          <div class="slider-text">
+            <h3 class="slider-heading">Los Angeles</h3>
+            <p class="slider-desc mtb-15">
+              We had the best time playing at Venice Beach!
+            </p>
+          </div>
+        </div>
+        <!-- ------ -->
+        <!-- Content -->
+        <section id="band">
+          <div class="content">
+            <h2 class="content-heading text-center">The band</h2>
+            <p class="content-slogan text-center mtb-15">
+              <i>We love music</i>
+            </p>
+            <p class="about mtb-15">
+              We have created a fictional band website. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <!-- Member list -->
+            <div class="row padding-32 text-center">
+              <div class="col col-third s-col-full">
+                <p class="mtb-15">Name</p>
+                <img
+                  src="./assets/Image/Members/member1.jpg"
+                  alt="member1"
+                  class="member-img margin-bottom"
+                />
+              </div>
+              <div class="col col-third s-col-full">
+                <p class="mtb-15">Name</p>
+                <img
+                  src="./assets/Image/Members/member1.jpg"
+                  alt="member1"
+                  class="member-img margin-bottom"
+                />
+              </div>
+              <div class="col col-third s-col-full">
+                <p class="mtb-15">Name</p>
+                <img
+                  src="./assets/Image/Members/member1.jpg"
+                  alt="member1"
+                  class="member-img margin-bottom"
+                />
+              </div>
+            </div>
+            <!-- ----------- -->
+          </div>
+        </section>
+        <section id="tour">
+          <div class="content">
+            <h2 class="content-heading text-center">Tour dates</h2>
+            <p class="content-slogan text-center mtb-15">
+              <i>Remember to book your tickets!</i>
+            </p>
+            <br />
+            <ul class="ticket-list">
+              <li class="pd-8">
+                September <span class="sold-out">Sold out</span>
+              </li>
+              <li class="pd-8">
+                October <span class="sold-out">Sold out</span>
+              </li>
+              <li class="pd-8">
+                November <span class="quantity pull-right padding-8">3</span>
+              </li>
+            </ul>
+            <ul class="place-list row padding-32">
+              <li class="col col-third s-col-full margin-bottom padding-8">
+                <img
+                  src="./assets/Image/Places/place1.jpg"
+                  alt="place1"
+                  class="place-img width-full"
+                />
+                <div class="place-detail">
+                  <p class="place-name mtb-15"><b>New York</b></p>
+                  <p class="place-date mtb-15">Fri 27 Nov 2016</p>
+                  <p class="place-desc mtb-15">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="btn s-col-full pd-8">Buy Tickets</button>
+                </div>
+              </li>
+              <li class="col col-third s-col-full margin-bottom padding-8">
+                <img
+                  src="./assets/Image/Places/place2.jpg"
+                  alt="place1"
+                  class="place-img width-full"
+                />
+                <div class="place-detail">
+                  <p class="place-name mtb-15"><b>Paris</b></p>
+                  <p class="place-date mtb-15">Sat 28 Nov 2016</p>
+                  <p class="place-desc mtb-15">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="btn s-col-full pd-8">Buy Tickets</button>
+                </div>
+              </li>
+              <li class="col col-third s-col-full margin-bottom padding-8">
+                <img
+                  src="./assets/Image/Places/place3.jpg"
+                  alt="place1"
+                  class="place-img width-full"
+                />
+                <div class="place-detail">
+                  <p class="place-name mtb-15"><b>San Francisco</b></p>
+                  <p class="place-date mtb-15">Sun 29 Nov 2016</p>
+                  <p class="place-desc mtb-15">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="btn s-col-full pd-8">Buy Tickets</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="content">
+            <h2 class="content-heading text-center">Contact</h2>
+            <p class="content-slogan text-center mtb-15">
+              <i>Fan?Drop a note!</i>
+            </p>
+            <div class="row padding-32">
+              <div class="contact-detail col col-half s-col-full">
+                <p><i class="fas fa-map-marker-alt"></i>Chicago, US</p>
+                <p>
+                  <i class="fas fa-phone-alt"></i>Phone:
+                  <a href="tel:+00 151515">+00 151515</a>
+                </p>
+                <p>
+                  <i class="fas fa-envelope"></i>Email:
+                  <a href="mailto:mail@gmai.com">mail@gmail.com</a>
+                </p>
+              </div>
+              <!-- Contact form -->
+              <div class="col col-half s-col-full s-mt-16">
+                <form action="">
+                  <!-- Name & Email textbox -->
+                  <div class="row">
+                    <div class="col col-half s-col-full">
+                      <input
+                        type="text"
+                        name=""
+                        id="name"
+                        class="s-col-full"
+                        placeholder="Name"
+                        2
+                        required
+                      />
+                    </div>
+                    <div class="col col-half s-col-full">
+                      <input
+                        type="email"
+                        name=""
+                        id="email"
+                        class="s-col-full"
+                        placeholder="Email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <!-- -------------------- -->
+                  <input
+                    type="text"
+                    name=""
+                    id="message"
+                    class="margin-bottom width-full"
+                    placeholder="Message"
+                    required
+                  />
+                  <button class="btn s-col-full pd-8 pull-right s-col-full">
+                    SEND
+                  </button>
+                </form>
+              </div>
+              <!-- ----------- -->
+            </div>
+          </div>
+        </section>
+        <!-- ------- -->
+        <!-- Map -->
+        <img src="./assets/Image/map.jpg" alt="map" class="map width-full" />
+      </div>
+
+      <footer id="footer" class="text-center">
+        <!-- Social media -->
+        <a href="https://facebook.com" target="_blank"
+          ><i class="social-media fab fa-facebook-square"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="social-media fab fa-instagram"></i
+        ></a>
+        <a href="https://snapchat.com" target="_blank"
+          ><i class="social-media fab fa-snapchat"></i
+        ></a>
+        <a href="https://pinterest.com" target="_blank"
+          ><i class="social-media fab fa-pinterest"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="social-media fab fa-twitter"></i
+        ></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><i class="social-media fab fa-linkedin"></i
+        ></a>
+        <!-- ------------ -->
+        <div class="copyright">
+          <p class="mtb-15">
+            Powered by
+            <a href="https://w3schools.com" target="_blank">w3.css</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Show/Hide mobile menu -->
+    <script>
+      var header = document.getElementById("header");
+      var mobileMenu = document.getElementById("mobile-menu");
+      var headerHeight = header.clientHeight;
+      var menuList = document.querySelectorAll('.nav li a[href*="#"]');
+
+      mobileMenu.onclick = function () {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+          header.style.height = "auto";
+        } else {
+          header.style.height = null;
+        }
+      };
+
+      for (var i = 0; i < menuList.length; i -= -1) {
+        var menuItem = menuList[i];
+        menuItem.onclick = function (event) {
+          var isParent =
+            this.nextElementSibling &&
+            this.nextElementSibling.classList.contains("sub-nav");
+          if (isParent) {
+            event.preventDefault();
+          } else {
+            header.style.height = null;
+          }
+        };
+      }
+    </script>
+    <!-- --------------------- -->
+  </body>
+</html>
